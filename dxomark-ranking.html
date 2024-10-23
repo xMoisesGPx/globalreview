@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,9 +43,9 @@
             margin-left: 0px;
         }
 
-            .toggle-menu.active {
-                background-color: #606060;
-            }
+        .toggle-menu.active {
+            background-color: #606060;
+        }
 
         /* Logo GLOBALREVIEW.NET */
         .navbar .logo {
@@ -93,9 +93,9 @@
             transition: background-color 0.3s ease;
         }
 
-            /* Estilo al pasar el cursor en la barra lateral*/
-            .button-group a:hover {
-                background-color: #404951;
+        /* Estilo al pasar el cursor en la barra lateral*/
+        .button-group a:hover {
+            background-color: #404951;
             }
 
         /* Barra Superior */
@@ -103,17 +103,17 @@
             display: flex;
         }
 
-            .button-group-desktop a {
-                color: white;
-                text-decoration: none;
-                padding: 10px 15px;
-            }
+        .button-group-desktop a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
 
-                /* Estilo al pasar el cursor en la barra superior */
-                .button-group-desktop a:hover {
-                    background-color: #404951;
-                    border-radius: 5px;
-                }
+        /* Estilo al pasar el cursor en la barra superior */
+        .button-group-desktop a:hover {
+            background-color: #404951;
+            border-radius: 5px;
+        }
 
         @media (max-width: 885px) {
             .button-group-desktop {
@@ -143,6 +143,68 @@
             border-top: 1px solid #2C3E50;
             border-bottom: 1px solid #2C3E50;
         }
+
+        main {
+            margin-top: 100px;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 14px;
+            color: gray;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            margin: 0 auto;
+            max-width: 1000px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .card h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .card-container {
+            max-width: 100%;
+            min-width:600px;
+            border-collapse: collapse;
+        }
+
+        .card-container, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th {
+            padding: 10px;
+            text-align: left;
+            background-color: #f1f1f1;
+            font-weight: bold;
+        }
+
+        .card-container th {
+            width: auto;
+            text-align: center;
+        }
+
+        .table-scroll {
+            overflow-x: auto;
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
@@ -182,7 +244,137 @@
     <!-- Contenido Principal de la Página -->
     <main>
 
-    </main>
+        <h1>GlobalReview.NET</h1>
+        <p>DxOmark Ranking List</p>
+        <div class="card">
+            <h2>DxOMark</h2>
+            <div class="table-scroll">
+                <table class="card-container">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Device</th>
+                            <th>Camera</th>
+                            <th>Selfie</th>
+                            <th>Audio</th>
+                            <th>Display</th>
+                            <th>Battery</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>Huawei Pura 70 Ultra</th>
+                            <th>163</th>
+                            <th>-</th>
+                            <th>-</th>
+                            <th>-</th>
+                            <th>-</th>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th>Google Pixel 9 Pro XL</th>
+                            <th>158</th>
+                            <th>148</th>
+                            <th>-</th>
+                            <th>158</th>
+                            <th>-</th>
+                        </tr>
+                        <tr>
+                            <th>=</th>
+                            <th>Honor Magic 6 Pro</th>
+                            <th>158</th>
+                            <th>151</th>
+                            <th>155</th>
+                            <th>157</th>
+                            <th>157</th>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <th>Apple iPhone 16 Pro Max</th>
+                            <th>157</th>
+                            <th>151</th>
+                            <th>-</th>
+                            <th>150</th>
+                            <th>-</th>
+                        </tr>
+                        <tr>
+                            <th>=</th>
+                            <th>Apple iPhone 16 Pro</th>
+                            <th>157</th>
+                            <th>-</th>
+                            <th>-</th>
+                            <th>-</th>
+                            <th>-</th>
+                        </tr>
+                        <tr>
+                            <th>=</th>
+                            <th>Huawei Mate 60 Pro+</th>
+                            <th>157</th>
+                            <th>-</th>
+                            <th>138</th>
+                            <th>148</th>
+                            <th>-</th>
+                        </tr>
+                        <tr>
+                            <th>=</th>
+                            <th>Oppo Find X7 Ultra</th>
+                            <th>157</th>
+                            <th>-</th>
+                            <th>-</th>
+                            <th>144</th>
+                            <th>160</th>
+                        </tr>
+                        <tr>
+                            <th>8</th>
+                            <th>Huawei P60 Pro</th>
+                            <th>156</th>
+                            <th>-</th>
+                            <th>141</th>
+                            <th>143</th>
+                            <th>138</th>
+                        </tr>
+                        <tr>
+                            <th>=</th>
+                            <th>Apple iPhone 15 Pro Max</th>
+                            <th>154</th>
+                            <th>149</th>
+                            <th>143</th>
+                            <th>151</th>
+                            <th>134</th>
+                        </tr>
+                        <tr>
+                            <th>=</th>
+                            <th>Apple iPhone 15 Pro</th>
+                            <th>154</th>
+                            <th>149</th>
+                            <th>142</th>
+                            <th>151</th>
+                            <th>114</th>
+                        </tr>
+                        <tr>
+                            <th>=</th>
+                            <th>Google Pixel 9</th>
+                            <th>154</th>
+                            <th>-</th>
+                            <th>-</th>
+                            <th>156</th>
+                            <th>-</th>
+                        </tr>
+                        <tr>
+                            <th>12</th>
+                            <th>Google Pixel 8 Pro</th>
+                            <th>153</th>
+                            <th>145</th>
+                            <th>142</th>
+                            <th>154</th>
+                            <th>111</th>
+                        </tr>
+                    </tbody>
+                </table>
+            <div>
+        </div>
+</main>
 
     <!--Mecanismos-->
     <script>
