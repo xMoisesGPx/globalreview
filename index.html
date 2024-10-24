@@ -208,25 +208,6 @@
             padding-left: 10px;
         }
 
-        .dropdown-content {
-            display: none;
-            background-color: #f9f9f9;
-        }
-
-        .dropdown-btn {
-            cursor: pointer;
-            background-color: transparent;
-            border: none;
-            font-size: 18px;
-            margin-left: 10px;
-        }
-
-        .dropdown-container {
-            display: inline-flex;
-            align-items: flex-end;
-            cursor: pointer;
-        }
-
     </style>
 </head>
 <body>
@@ -279,359 +260,107 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><img src="Apple.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('apple-menu', this)">
-                                    <span translate="no">Apple</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="apple-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png" style="width:150px;">
-                            </td>
+                            <td><img src="Apple.png" style="width:100px;" /></td>
+                            <td><span translate="no">Apple</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Asus.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('asus-menu', this)">
-                                    <span translate="no">Asus</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="asus-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Asus.png" style="width:100px;" /></td>
+                            <td><span translate="no">Asus</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Black Shark.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('blackshark-menu', this)">
-                                    <span translate="no">Black Shark</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="blackshark-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Black Shark.png" style="width:100px;" /></td>
+                            <td><span translate="no">Black Shark</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Cubot.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('cubot-menu', this)">
-                                    <span translate="no">Cubot</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="cubot-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Cubot.png" style="width:100px;" /></td>
+                            <td><span translate="no">Cubot</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Fairphone.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('fairphone-menu', this)">
-                                    <span translate="no">Fairphone</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="fairphone-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Fairphone.png" style="width:100px;" /></td>
+                            <td><span translate="no">Fairphone</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Google.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('google-menu', this)">
-                                    <span translate="no">Google</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="google-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Google.png" style="width:100px;" /></td>
+                            <td><span translate="no">Google</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Honor.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('honor-menu', this)">
-                                    <span translate="no">Honor</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="honor-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Honor.png" style="width:100px;" /></td>
+                            <td><span translate="no">Honor</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Huawei.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('huawei-menu', this)">
-                                    <span translate="no">Huawei</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="huawei-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Huawei.png" style="width:100px;" /></td>
+                            <td><span translate="no">Huawei</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Infinix.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('infinix-menu', this)">
-                                    <span translate="no">Infinix</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="infinix-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Infinix.png" style="width:100px;" /></td>
+                            <td><span translate="no">Infinix</span></td>
                         </tr>
                         <tr>
-                            <td><img src="LG.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('lg-menu', this)">
-                                    <span translate="no">LG</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="lg-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="LG.png" style="width:100px;" /></td>
+                            <td><span translate="no">LG</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Meizu.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('meizu-menu', this)">
-                                    <span translate="no">Meizu</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="meizu-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Meizu.png" style="width:100px;" /></td>
+                            <td><span translate="no">Meizu</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Motorola.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('motorola-menu', this)">
-                                    <span translate="no">Motorola</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="motorola-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Motorola.png" style="width:100px;" /></td>
+                            <td><span translate="no">Motorola</span></td>
+                        <tr>
+                            <td><img src="Nokia.png" style="width:100px;" /></td>
+                            <td><span translate="no">Nokia</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Nokia.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('nokia-menu', this)">
-                                    <span translate="no">Nokia</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="nokia-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Nothing.png" style="width:100px;" /></td>
+                            <td><span translate="no">Nothing</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Nothing.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('nothing-menu', this)">
-                                    <span translate="no">Nothing</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="nothing-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Nubia.png" style="width:100px;" /></td>
+                            <td><span translate="no">Nubia</span></td>
+                        <tr>
+                            <td><img src="OnePlus.png" style="width:100px;" /></td>
+                            <td><span translate="no">OnePlus</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Nubia.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('nubia-menu', this)">
-                                    <span translate="no">Nubia</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="nubia-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Oppo.png" style="width:100px;" /></td>
+                            <td><span translate="no">Oppo</span></td>
                         </tr>
                         <tr>
-                            <td><img src="OnePlus.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('oneplus-menu', this)">
-                                    <span translate="no">OnePlus</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="oneplus-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Poco.png" style="width:100px;" /></td>
+                            <td><span translate="no">Poco</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Oppo.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('oppo-menu', this)">
-                                    <span translate="no">Oppo</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="oppo-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Realme.png" style="width:100px;" /></td>
+                            <td><span translate="no">Realme</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Poco.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('poco-menu', this)">
-                                    <span translate="no">Poco</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="poco-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Samsung.png" style="width:100px;" /></td>
+                            <td><span translate="no">Samsung</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Realme.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('realme-menu', this)">
-                                    <span translate="no">Realme</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="realme-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Sony.png" style="width:100px;" /></td>
+                            <td><span translate="no">Sony</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Samsung.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('samsung-menu', this)">
-                                    <span translate="no">Samsung</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="samsung-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Tecno.png" style="width:100px;" /></td>
+                            <td><span translate="no">Tecno</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Sony.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('sony-menu', this)">
-                                    <span translate="no">Sony</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="sony-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Vivo.png" style="width:100px;" /></td>
+                            <td><span translate="no">Vivo</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Tecno.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('tecno-menu', this)">
-                                    <span translate="no">Tecno</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="tecno-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="Xiaomi.png" style="width:100px;" /></td>
+                            <td><span translate="no">Xiaomi</span></td>
                         </tr>
                         <tr>
-                            <td><img src="Vivo.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('vivo-menu', this)">
-                                    <span translate="no">Vivo</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="vivo-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><img src="Xiaomi.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('xiaomi-menu', this)">
-                                    <span translate="no">Xiaomi</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="xiaomi-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><img src="ZTE.png" style="width:75px;"/></td>
-                            <td>
-                                <div class="dropdown-container" onclick="toggleDropdown('zte-menu', this)">
-                                    <span translate="no">ZTE</span>
-                                    <span class="dropdown-btn">▶</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr id="zte-menu" class="dropdown-content">
-                            <td colspan="2">
-                                <img src="foto.png">
-                            </td>
+                            <td><img src="ZTE.png" style="width:100px;" /></td>
+                            <td><span translate="no">ZTE</span></td>
                         </tr>
                     </tbody>
                 </table>
         </div>
-</main>
+    </main>
 
     <!--Mecanismos-->
     <script>
@@ -645,18 +374,6 @@
             toggleMenu.setAttribute('aria-expanded', expanded);
             toggleMenu.classList.toggle('active');
         });
-
-        function toggleDropdown(menuId, element) {
-            const menu = document.getElementById(menuId);
-            const btn = element.querySelector('.dropdown-btn');
-            if (menu.style.display === "none" || menu.style.display === "") {
-                menu.style.display = "table-row";
-                btn.textContent = "▼";
-            } else {
-                menu.style.display = "none";
-                btn.textContent = "▶";
-            }
-        }
     </script>
 
 </body>
