@@ -1,0 +1,130 @@
+.navbar {
+    background-color: #1E2933;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .button-group-desktop {
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+        white-space: nowrap;
+        flex-grow: 1;
+    }
+
+    .button-group-desktop .logo {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+
+    .button-group-desktop a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        flex-shrink: 0;
+    }
+
+    .button-group-desktop a:hover {
+        background-color: #404951;
+        border-radius: 5px;
+    }
+
+    .toggle-menu {
+        cursor: pointer;
+        font-size: 24px;
+        color: white;
+        display: block;
+        border: 2px solid #2C3E50;
+        padding: 10px 15px;
+        border-radius: 4px;
+        background-color: transparent;
+        transition: background-color 0.3s, border-color 0.3s;
+        margin-left: 0px;
+    }
+
+    .toggle-menu.active {
+        background-color: #606060;
+    }
+
+    .navbar span {
+        color: white;
+        font-size: 14px;
+        padding-left: 10px;
+        flex-shrink: 0;
+    }
+
+    .button-group {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 200px;
+        background-color: #1E2933;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 999;
+        border-top: 2px solid #2C3E50;
+        border-bottom: 1px solid #2C3E50;
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+    .navbar.active .button-group {
+        transform: translateX(0);
+    }
+
+    .button-group a {
+        background-color: #1E2933;
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 15px;
+        transition: background-color 0.3s ease;
+    }
+
+    .button-group a:hover {
+        background-color: #404951;
+    }
+
+    .section-title {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 20px 0px;
+    }
+
+    .section-comparaciones, .section-rankings {
+        margin: 0;
+        padding: 15px 0;
+        border-bottom: 1px solid #2C3E50;
+    }
+
+    .section-rankings {
+        border-top: 1px solid #2C3E50;
+    }
+
+    .button-group a {
+        border-top: 1px solid #2C3E50;
+        border-bottom: 1px solid #2C3E50;
+    }
+
+    .button-group::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .button-group::-webkit-scrollbar-thumb {
+        background-color: #404951;
+    }
