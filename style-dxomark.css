@@ -1,0 +1,68 @@
+main {
+    margin-top: 100px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+a.main-up {
+    color: gray;
+    text-decoration: none;
+}
+
+a.device {
+    color: black;
+    text-decoration: none;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 650px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-container {
+    max-width: 800px;
+    border-collapse: collapse;
+    overflow-y: auto;
+    display: block;
+    height: 500px;
+    width: 100%;
+    table-layout: auto;
+}
+
+.card-container,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    word-wrap: break-word;
+}
+
+.card-container th {
+    position: sticky;
+    top: 0px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    border-top: 0px;
+}
