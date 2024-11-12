@@ -36,7 +36,7 @@ a.device {
 }
 
 .card-container {
-    max-width: 800px;
+    max-width: 100%;
     border-collapse: collapse;
     overflow-y: auto;
     display: block;
