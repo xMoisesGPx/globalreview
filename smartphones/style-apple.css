@@ -3,6 +3,7 @@
     text-align: center;
     background-color: #ffffff;
     margin-top: 60px;
+    overflow-x: auto;
 }
 
 .apple-smartphones h1 {
