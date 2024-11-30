@@ -83,7 +83,6 @@
         border-top: 2px solid #2C3E50;
         border-bottom: 1px solid #2C3E50;
         max-height: 300px;
-        overflow-y: auto;
     }
 
     .navbar.active .button-group {
