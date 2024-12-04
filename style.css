@@ -76,7 +76,7 @@
     top: 76px;
     left: 0;
     width: 200px;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 76px);
     background-color: #1E2933;
     transform: translateX(-100%);
     transition: transform 0.3s ease;
